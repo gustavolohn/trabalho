@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato - Site Uninter</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <a href="index.html">Sobre Mim</a>
+            <a href="formacao.html">Formação</a>
+            <a href="portifolio.html">Portfolio</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section class="container_cont">
+
+            <h1>Contato</h1>
+            <p>
+                Caso tenha se interessado pelo meu trabalho, e deseja conversar, dar sujestao ou me contratar para algum projeto, por favor preencha esse formulario de interesse abaixo para que eu possa ficar sabendo e futuramente a gente troque uma ideia!
+            </p>
+
+            <form class="formulario-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="comentario">Comentário:</label>
+                <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+                <button type="submit" id="botao">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por <strong><a href="https://github.com/gustavolohn" target="_blank">Gustavo Artur Lohn</a></strong></p>
+    </footer>
+</html>
+<script>
+  function mostrarPopup() {
+    alert(" Interesse enviado com sucesso!");
+  }
+
+  const formulario = document.querySelector("form");
+  formulario.addEventListener("submit", function(e) {
+    e.preventDefault();
+    mostrarPopup();
+  });
+</script>

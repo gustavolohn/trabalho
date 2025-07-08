@@ -1,0 +1,190 @@
+/* Configuracoes Gerais do Site */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+    background-color: #000000;
+    color: white;
+}
+
+/* Configuracoes da aba Sobre Mim */
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.menu a{
+    padding:  10px 20px;
+    margin: 0px 15px;
+    font-size: 20px;
+    color: #22D4FD;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    background-color: #22D4FD;
+    color: white;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.container_conteudo{
+    margin: 100px 500px 0px;
+    height: 100vh;
+}
+
+.container_conteudo h1{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.container_conteudo p{
+    flex-direction: column;
+    text-align: justify;
+    margin: 30px 0px 30px 0px;
+    font-size: 18px;
+}
+
+img{
+    margin: 10px 0px 100px 200px;
+    background-color: white;
+    padding: 15px 15px 35px;
+}
+/* Configuracao da aba Formacao */
+.container_form{
+    margin: 100px 500px 0px;
+    height: 100vh;
+}
+
+.container_form h1{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 30px;
+    font-size: 50px
+}
+
+.container_form li{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 30px 0px 30px 0px;
+}
+
+.container_form strong{
+    color: #22D4FD;
+    font-size: bold;
+    margin-bottom: 30px;
+}
+
+/* Configuracao da Aba Portfolio*/
+
+.container_port{
+    margin: 100px 500px 0px;
+    height: 100vh;
+}
+
+.container_port h1{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 30px;
+    font-size: 50px
+}
+
+.container_port p{
+    margin: 20px 0px;
+}
+
+.container_port a{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #22D4FD;
+    font-size: 25px;
+}
+
+.container_port a:hover{
+    color: white;
+}
+
+
+/* Configuracao da aba Contato */
+
+.container_cont{
+    margin: 100px 500px 0px;
+    height: 100vh;
+}
+
+.container_cont h1{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 30px;
+    font-size: 50px
+}
+
+.container_cont p{
+    flex-direction: column;
+    text-align: justify;
+    margin: 30px 0px 30px 0px;
+    font-size: 18px;
+}
+
+.container_cont form{
+        margin: 0px 180px;
+}
+
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+}
+
+#botao{
+    background-color: #22D4FD;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+#botao:hover{
+    background-color: #189ab8;
+    color: white;
+    transition: 0.2s;
+}
+/* Roda Pe do Site */
+.rodape{
+    background-color: #22D4FD;
+    color: #000000;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 23.64px;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.rodape a:hover{
+    text-decoration: underline;
+    color: white;
+    transition: 0.2s;
+}
